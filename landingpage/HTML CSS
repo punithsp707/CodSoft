@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>navigation</title>
+  <style>
+    body {
+      background-color: #f7f5f7;
+    }
+
+    .navbar {
+      background-color:rgb(112, 111, 111);
+      height: 70px;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    footer{
+      width:100vh;
+    }
+
+    a {
+      float: left;
+      list-style: none;
+      margin-left: 70px;
+      text-decoration: none;
+      color: white;
+
+      /* padding-top: 1px; */
+    }
+
+    .khan_anna {
+      height: 60px;
+      filter: invert(100%);
+      background-color: transparmarg ;
+      margin-right: 35px;
+
+    }
+    ul {
+      overflow: auto;
+      color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .list a {
+      color: ghostwhite;
+    }
+    .list a:hover{
+      color:grey;
+    }
+
+    .buy {
+      border-radius: 6px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      margin-left: 95px;
+      padding: 5px;
+    }
+
+    .landing {
+      font-size: medium;
+      font-weight: bolder;
+    }
+
+    .Image {
+      opacity: 0.7;
+      width: 100%;
+      margin-top: 1px;
+    }
+
+    .btn {
+      background-color: grey;
+      color: black;
+      border-radius: 6px;
+      border-color: transparent;
+      padding: 5px;
+      margin-left: 13px;
+    }
+
+
+    button:hover {
+      background-color: darkgray;
+      color: white;
+    }
+
+    button:active {
+      background-color:rgb(112, 111, 111);
+      color: black;
+    }
+
+    #top {
+      position: -200;
+    }
+
+    .btn2 {
+      border-radius: 15px;
+      background-color:grey ;
+      border-color: transparent;
+      padding: 8px;
+    }
+
+    .btn1 {
+      border-radius: 15px;
+      background-color: grey;
+      border-color: transparent;
+      padding: 8px;
+    }
+
+    #content {
+      position: relative;
+      color: rgb(11, 11, 11);
+      text-align: left;
+      margin-left: 100px;
+      margin-top: -400px;
+      font-weight: bold;
+    }
+
+    #g {
+      margin-left: 5%;
+    }
+
+    .center {
+      position: relative;
+      top: 90px;
+      display: flex;
+      background-color:rgb(112, 111, 111);
+      height: 125px;
+
+    }
+
+    .center_head {
+      position: relative;
+      margin: 0px 130px;
+      color: black;
+      font-size: 20px;
+      top: 40px;
+    }
+
+    .centerpara {
+      /* display: inline; */
+      position: relative;
+      top: 60px;
+      margin: 0px 80px;
+    }
+
+    .counterhead1 p {
+      position: relative;
+      left: 100px;
+    }
+    .centerhead4 button {
+      position: relative;
+      top: 160px;
+      padding: 4px;
+      border-radius: 9px;
+      background-image: linear-gradient(to right, yellow 0%, red 51%, pink 100%);
+      border-color: transparent;
+    }
+
+    .lastcontent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color:rgb(112, 111, 111);
+    }
+
+    .lastcontent img {
+      height: 150px;
+      width: 150px;
+      box-shadow: -6px 6px 6px black;
+      margin: auto;
+      border: 2px solid transparent;
+      border-radius: 16px;
+    }
+    .about {
+      border: none;
+      margin-top: 90px;
+
+    }
+    .lastcontent button {
+      border-radius: 6px;
+      position: relative;
+      left: -50px;
+      padding: 6px;
+
+    }
+    .about {
+      background-color: white;
+      height: 50vh;
+    }
+    .about button {
+      border-radius: 6px;
+      background-color: rgb(112, 111, 111);
+    }
+    #imran{
+      height: 250px;
+      width: fit-content;
+      left: 120px;
+      position: relative;
+      top: -315px;
+
+    }
+    .abouthead {
+      font-size: 35px;
+      text-shadow: 0 0 2px black;
+      padding: 6px;
+    }
+    .aboutpara {
+      border-radius: 12px;
+      box-shadow: 0 0 10px black;
+      padding: 12px;
+      background-color:rgb(112, 111, 111);
+      position: relative;
+      top: -50px;
+      left: 400px;
+      width: 70%;
+      font-size: 19px;
+    }
+    .lastcontent {
+      background-color:rgb(112, 111, 111);
+      height: 38vh;
+      width: 100%;
+
+    }
+    .lasthead {
+      text-shadow: 2px 2px 2px grey;
+      background-color: transparent;
+      margin-top:-185px;
+    }
+    .symbol {
+      border: 1px solid pink;
+    }
+    .btn3 {
+      background-color:rgb(112, 111, 111) ;
+      color: black;
+      border-radius: 6px;
+      border-color: transparent;
+      padding: 5px;
+      position:relative;
+      margin-top: 125px;
+      top:-250px;
+      left: 720px;
+    }
+
+    button:hover {
+      background-color:rgb(112, 111, 111) ;
+      color: black;
+    }
+
+    button:active {
+      background-color: rgb(112, 111, 111);
+
+    }
+    .jjj{
+      position: relative;
+      top: 100px;
+      right: 500px;
+    }
+    .first{
+      display: right;
+      display: flex;
+      margin-left: 50px;
+    }
+    #navbtn{
+      height:45px ;
+      border-radius: 6px;
+      padding: 2px;
+      margin: auto;
+    }
+    .phone{
+      margin-left: 450px;
+    }
+    .mail{
+      margin-left: 160px;
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <header>
+    <nav class="navbar">
+      <ul class="list">
+        <img class="khan_anna"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAABEVBMVEX///8pquErPZEfdrsnJmAnJV0rO5ArPpIXL4wAb7gec7kAbbclqeEUpuAeeL0SLIsJBlUAAFIeM40NKYoAJYjZ2eIaGVqors0nHFkpsOcjIl4jN4/4/P623/MAa7cnn9nu7vPLyta+vcqsrL2foLWYmK+BgZxFRHURDlgRD1cWFFjo6O4nF1YofrOwtdGAibcpk8oqOIaLzO1pvudAUJvq9fzT7PnCx92v2/IiichPtuUmVaIkX6nJ2uu90OaqxeGWudufpchkbqhjY4aQmMBPXKBPTnkpL3EoToUobaEoQHgnMGkAN3YoXpOSnbmBuNuFjbqX0O03NmpqdKtrda5fl8t0pNANRpqRqc9Ki8UViMm6q5H5AAAHWUlEQVR4nO2ca1vaWBCAIdhwCwgoCJHaWJWqeFst1HoparW1tt3dXtTa//9D9oRwS3LmXFq3mfDM+6FPv4SH15kzM+ckIZEgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCIIgCOIP41SXn6+srq2tra48X646UX+dP4RT3Wm9WC+VSusbmy4b/f+/aK1M+1+gen5hzm/U7Jkgdm2jbL9drUb9Bf8vqpfp2cqiEfIeUdsszaxNoX5z4Wq+YhpGGlbvx3+z/G6lGfWXfVTau5UME2fq75+I5Zn++marHfUXfjTau5lK39xI/yVV7yf/+pTYO7uzA3OGinnfvtRyov7iv8+COTZXyPgRm/ZK1F/9N6lezY7MVTN+gF16F+uafz63aIyR1PiBcn1rq27b7J96rbwatcAv41xMBF0p7HZ95np7z0oynm1/uGGhd6KW+DWq6cmgqxS6rZttq8G8+/KNRuPZ9qd6LPN+Z870mUvDXv+47YpP0kjufYphybsMqBvGe0nQP1tB9b7+9t9Rq+iyOxcwNyRhr4eCPpQv/BO1jB7fZoPqkt5u7wHqjMJB1Do67IbUJQ2uLlCPlzxHXVzlxepMfj9qJVUuQ2tdUuW3oLU+lv8StZQaOxx14XKvX8vUmfxh1FoqVHkJL+5wz6TqTL4btZgcJzjNSZc72N18WEn8xznfK1x1A075jwrmyTgU+wXeYjdEk039g0rYk/iXfBuIusB9S2W1e/KdqPWEXPEXu8DdvlEMO1vyR1HrieC2Nxe4vSunvBv4p1ELwjTN4N5NwV2pyg8Cj7jWX2YAdUHO1/eU1THPts4sFHbRelcudX15rOXuX6jIP6I70sC3K3DYH8sda+AvBWE30o/ljnJD11wUhB2e57VqHdZSv8Pfvz2yO84efyUMexraw+r0937gEQ537YzEHVjw9c967hir3bmo0hlwobev9dQxVjtxykML3q6V32m640v69rxEnedur8+0qokjSzPw2JJ+Bx7lhws+ZF7+uuKwS78UNN2xnWF8hzbuI/fAgq+V3i57l3Y13S1sh1dp2XL3ndjZm+XW+OZyQy/prWSEnhyq4g7nX/B26euaM3Hxvm7S4zqufiUe6rwF/2QQ8rfP/XOpbtIjG+2E+5gB7oKvlb+uhR+d00x6ZBvZb7JS52KXa61l3tWalR5ZsXspX+7G4jeuOKOj6Y5qummKji1G7t/B6w80Kz2mfawjnepc5h3oes1qh2qyq0Ln8j4yC+AH6FU7VE1OocUxzCvwAw61Ao+qyUmneY9Z8EHB5tS7V3bBT9Ca7VDtZhbU3M05sEBrtbk4uouqnU6bi6W7+RL8CJ02h8pdcb2zavcK/AyNwMfTfRFuc0/VA4+qzqv1d5d5+Hl49fkGlbvaXNcPPNzm1OcbVHOd2jzvyTv8jzj98aCe85jmeaV9nEfmnHN95+z1UjanfEcW1T5Oaf/uYaZDF5/eZrO5VCr3WlUd1f5d7dzGY87f5jq94hIT76NY7JCd24geNwmweDFxXeeumB+ap1STHtl5neTmuy/pM6PDyu7dUjY1wU+1W7KoWpx7Pq/sblQG1c5d5ik/inHH1OISSvdlRoF3q13nbCLZ9ZIe232ZxIV6sWPV7vQ2lw2Zq1Z6ZKVOY6J3A3/PE3fdi0opj2kn4yK//z6Z9FxzF5WxFtVU10f63MWk/BKgnlN46ArZZOOickdu5H5cBNwVFjzC520kz1mpJX2uqPC2GLqU10z6HBT4OKa81mhnmCdQ4KUdHtlQ5yF5ntbvDi54WbHD+TytVrW7/9Vih7DSuQifnw/EHezwP2XuCCudi8ZGNs0f7FIpyWSHbPs6RvS+TDDwwR3cMOdl7kjDLnxPStE9VRSe3SBd7S7w+3HK7sJzK6RF3gN8LzIENNwI3VH29hHg+7ABwDqfE7ijHOnGgO9BB4D6uzDuFtpC5wG9/+4HnOtE7ujOLEJcqEQe3MAL6jz+3z1IOAqnlvBYlwPdrQbiGj+kGvoRr7D7CZjy4GyD7WCaj7zRwed14O0J/Ivdg/e7Rr6w50F1aB+HeKALwP09q7E6XOShswu0WxgOInmROuAegxI/Qfj368bqsDmDt9zjpc773UIldd5yj1PCe/yocDZ1pqC7QSkfP/VEonecDtib5j24fRsQmmysuDQ3P6fFk2Pma7h/APavaR7nJebhDmclYzHShGneZnMnx/dp5p6+Pz6RxZyT8oWjGAyyAL18rshgo2pRKs4I3JGKab4PaT/AM5wk7FbhKKb5PqJXBI/mgvjO5gvJWAfdo3mXV7OfDHuhsB/flT5J5y70QBVP/XVjbH6A/HhKA9ceuhMzZHhqYbGYT4+5S7P3IE59L+OZ+NHhdGS7j+5ZMQ9GP7fXsJh4cj/utR2ke3ZbXOKlf+6nVUgefJlacY9mt3f3kM0zsh79/+7tH3anMNW5dLqnb3pnLr03p93pKm0EQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEEQv+A8Nuz3ZygNSOAAAAAElFTkSuQmCC"
+          <a class="landing" href="" >
+        <p style="color: white;"><b>LANDING PAGE</b></p> </a>
+        <a href="#kkk">HOME</a>
+        <a href="">BLOG</a>
+        <a href="">PAGE</a>
+        <a href="">SERVICES</a>
+        <a href="">TESTIMONIALS</a>
+        <a href="">CONTACT</a>
+        <input class="buy" type="text" name="search" placeholder="Enter to buy now">
+        <button class="btn">Search</button>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="Image">
+    <img
+      src="https://wallpapercave.com/wp/wp5315783.jpg"
+      alt="Business Consultancy" width="100%" height="630">
+
+    <div id="content">
+      <div class="border"> </div>
+      <h1>WE ARE LEADING</h1>
+      <h2 id="top">CREATIVE DIGITAL AGENCY</h2>
+      <p>"We are leading by embracing innovation, fostering collaboration, and relentlessly pursuing excellence in all our endeavors."</p>
+      <button class="btn1">Read More</button>
+      <button class="btn2">REQUEST A CONSULTATION</button>
+    </div>
+
+  </div>
+
+  <div class="center">
+    <div class="centerhead1">
+      <h6 class="center_head"> &#9991;LAUCH BUSINESS</h6>
+    </div>
+    <div class="centerhead2">
+      <h6 class="center_head"> &#9755; ONLINE SUPPORT TEAM</h6>
+    </div>
+    <div class="centerhead3">
+      <h6 class="center_head">TIME MANAGEMENT</h6>
+    </div>
+  </div>
+
+  <div class="about" id="kkk">
+    <h6 class="abouthead" font-weight:bold>ABOUT US</h6>
+    <p class="aboutpara">I'm an individual with a diverse range of passions and interests. Technology intrigues me, and I'm always eager to explore its latest developments. Coding is more than a skill—it's a way for me to bring my creative ideas to life. Current affairs captivate me, as I believe understanding the world is essential for meaningful innovation. Speaking of which, innovation is my driving force; I'm enthusiastic about finding new solutions to both everyday challenges and larger societal issues. As I navigate my path, I eagerly engage with projects, discussions, and opportunities that align with my passions. Whether it's crafting lines of code or staying informed about global events, I'm on a journey to make a positive impact through the fusion of technology, coding, current affairs, and innovation. </p>
+    <img
+      src="https://o.remove.bg/downloads/f59818c4-2d3f-4d3c-8028-115b786c416c/photo-1536995769641-12e9f98fd223-removebg-preview.png"
+      id="imran" alt:"this is a image of a man thinking" width="300" >
+    <button class="btn3">READ MORE</button>
+
+  </div>
+
+
+  <div class="lastcontent">
+     <h1 class="lasthead"></>OUR SERVICES</h1>
+    <img
+      src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVhbXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+    <button class="j1">&#10004; USER EXPIERENCE</button>
+    <img
+      src="https://images.unsplash.com/photo-1507208773393-40d9fc670acf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Y3JlYXRpdmUlMjBjb21wdXRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60">
+   <button class="j2"> &#9881; CREATIVE DESIGN</button>
+    <img
+      src="https://images.unsplash.com/photo-1653656120476-cdcc1b4e4e6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGpvYiUyMHJlYWR5fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"> <button class="j3">&#xf087; RETINA READY</button>
+    <br>
+    <div class="jjj">
+
+
+
+    </div>
+  </div>
+  <div>
+    <nav class="first">
+      <p>Copyright reserved &copy All rights reserved</p>
+      <p class="phone">&#9990;+13216546531 </p>
+      <p class="mail"> &#9993; punithsp@gmail.com</p>
+      <button id="navbtn">REQUEST A CONSENT</button>
+    </nav>
+  </div>
+
+</html>
